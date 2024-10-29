@@ -1,0 +1,55 @@
+/* box-model.html */
+.box-model-div {
+    width: 200px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+  }
+  
+  /* border-01.html */
+  .border-dotted-p {
+    border: 4px dotted red;
+  }
+  
+  /* border-02.html */
+  .border-top-only {
+    border-top: 4px solid black;
+  }
+  
+  /* border-03.html */
+  .border-solid-green {
+    border: 10px solid green;
+  }
+  
+  /* pseudo-class-01.html */
+  a:link {
+    background-color: lightblue;
+  }
+  
+  a:visited {
+    background-color: lightblue;
+  }
+  
+  a:hover {
+    background-color: yellow;
+  }
+  
+  a:active {
+    background-color: red;
+  }
+  
+  /* pseudo-class-02.html */
+  p.highligh:hover {
+    background-color: lightblue;
+  }
+  
+  /* pseudo-class-03.html */
+  p:first-child {
+    background-color: lightblue;
+  }
+  
+  /* pseudo-class-04.html */
+  input:focus {
+    background-color: lightblue;
+  }
+  
