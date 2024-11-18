@@ -19,29 +19,25 @@ header {
 
 header .container {
     display: flex;
-    flex-direction: column;  /* Change to column to stack the logo and nav vertically */
-    align-items: center;     /* Center items horizontally */
-    justify-content: center; /* Center items vertically if needed */
-}
-
-header .logo {
-    height: 50px;
-    margin-bottom: 20px; /* Space between logo and navigation */
+    justify-content: center; /* Center the navigation horizontally */
+    align-items: center;     /* Vertically center the navigation */
 }
 
 header nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: center; /* Center the navigation links */
 }
 
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 30px;  /* Increase the spacing between the navigation items */
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.5rem;  /* Increase font size */
 }
 
 header nav ul li a:hover {
@@ -58,8 +54,21 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+.hero .container {
+    display: flex;
+    flex-direction: column;  /* Stack logo and text vertically */
+    align-items: center;     /* Center both horizontally */
+    justify-content: center; /* Vertically center if needed */
+}
+
+.hero .logo {
+    height: 160px;  /* Adjust logo size as necessary */
+    margin-bottom: 20px;  /* Space between logo and text */
+}
+
 .hero h1 {
     font-size: 2.5rem;
+    color: #000; /* Ensure the text color stands out */
 }
 
 .hero p {
@@ -91,7 +100,9 @@ header nav ul li a:hover {
 }
 
 .menu .menu-item img {
-    width: 100%;
+    width: 100%; /* Ensures image takes up full width of the container */
+    height: 200px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
     border-radius: 8px;
 }
 
