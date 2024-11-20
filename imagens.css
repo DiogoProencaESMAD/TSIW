@@ -1,0 +1,33 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grelha {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coluna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.coluna img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
