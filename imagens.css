@@ -31,3 +31,30 @@ body {
     max-height: 100%;
     object-fit: contain;
 }
+
+@media (max-width: 768px) {
+    .grelha {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .coluna {
+        width: 80px;
+        height: 80px;
+    }
+
+    .coluna img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+}
